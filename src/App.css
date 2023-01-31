@@ -130,3 +130,9 @@ body::-webkit-scrollbar {
   }
 }
 /*copy until here */
+
+
+.contacts{
+  background-image: url("./images/bg-img.jpg");
+  opacity: 0.9;
+}

@@ -1,7 +1,10 @@
 import About from "../components/About";
+import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Myskills from "../components/Myskills";
 import Navbar from "../components/Navbar";
+import Projects from "../components/Projects";
 
 const Main = () => {
     return ( 
@@ -9,7 +12,10 @@ const Main = () => {
             <Navbar />
             <Hero />
             <About />
-            <Myskills /> 
+            <Myskills />
+            <Projects />
+            <Contact />
+            <Footer />
         </div>
     );
 }
